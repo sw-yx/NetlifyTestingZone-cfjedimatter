@@ -26,7 +26,7 @@ exports.handler = function(event, context, callback) {
 	console.log(`intent=${intent}`);
 	callback(null, {
     statusCode:200,
-    body: 'sent '+intent
+    body: 'sent '+intent + ' at ' + (new Date())
 	});
 	
 }
