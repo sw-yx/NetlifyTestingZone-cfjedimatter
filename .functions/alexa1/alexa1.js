@@ -16,7 +16,7 @@ exports.handler = async (event, context) => {
 */
 
 exports.handler = function(event, context, callback) {
-
+  console.log('work please');
 	/*
 	Alexa info is in event.body. It's a JSON packet contaning a lot of
 	information with the primary thing we want being intent
