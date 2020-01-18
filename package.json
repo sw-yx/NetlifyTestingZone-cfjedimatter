@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/cfjedimaster/NetlifyTestingZone/issues"
   },
-  "homepage": "https://github.com/cfjedimaster/NetlifyTestingZone#readme"
+  "homepage": "https://github.com/cfjedimaster/NetlifyTestingZone#readme",
+  "dependencies": {
+    "netlify-lambda": "^1.6.3"
+  }
 }
