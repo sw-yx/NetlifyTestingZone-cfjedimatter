@@ -25,7 +25,8 @@ exports.handler = function(event, context, callback) {
 	if(event.body.request && event.body.intent) intent = event.body.intent.name;
 	console.log(`intent=${intent}`);
 	callback(null, {
-    response: 'sent '+intent
+    statusCode:200,
+    body: 'sent '+intent
 	});
 	
 }
